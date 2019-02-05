@@ -1,22 +1,8 @@
-Advanced Computer Architecture
+Welcome to Advanced Computer Architecture class!
 
-
-```markdown
-Syntax highlighted code block
-
-# Literature Review
-## Assignments
-### Labs
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Assignments:
+Literature Review
+[Computer Architecture for Autonomous Driving](https://github.com/drishtigoel/Advanced-Computer-Architecture/blob/master/Literacy%20Reading%201) 
 ```
 
 
