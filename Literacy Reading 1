@@ -2,9 +2,24 @@ DRISHTI GOEL
 
 Feb 3, 2019
 
-Computer Architectures for Autonomous Driving
+ # Computer Architectures for Autonomous Driving
 
-An interest towards implementation of Autonomous driving is so high even US department of Transportation is also involved by defining 5 levels of autonomous driving. Level 0 where driver has complete control, from level 1 – level 3 vehicle gradually gets the control, In the level 4 vehicle gets the complete control. To get a complete control, must ensure high performance, minimal consumption of power and low thermal dissipation. And for this to implement we should have an architecture that matches the workload. This paper involves an actively comparing computer architectures that will reduce the cost of autonomous driving that helps in affording the more population. This paper compares Lidar-based and Vision based autonomous driving paradigm and also analyzed with different resources like CPU, GPU, FPGA’s and DSP’s to find most suited resource for autonomous driving. While analyzing author developed an architecture that run tasks on heterogeneous system on chip(SOC). An architecture is modular, secure, energy-efficient with high performance. Autonomous driving to be successful should rely on mapping, localization, obstacle avoidance and sensor peripheral functions. Most of the autonomous driving vehicle uses LIDAR based technique. The current technique has some challenges like more power consumption which is making unaffordable to whole population so trying to find the system which consumes less power. So tried computing on ARM mobile SOC which is fully heterogeneous resource which didn’t fit all the task in the system. Had to exclude object tracking, prediction, cross-road traffic prediction. But autonomous driving system should be able to upload data sporadically. Computing-platform layer is a SOC architecture which consists of I/O subsystem, CPU and shared memory. Using different computing resources helps in different ways like DSP preprocesses the image to extract features, GPU performs object recognition and other deep learning tasks, multi-core CPU is planning for control. This architecture has several key benefits like modular, secure and highly dynamic.
+An interest towards implementation of Autonomous driving is so high even US department of Transportation is also involved by defining 5 
+levels of autonomous driving. Level 0 where driver has complete control, from level 1 – level 3 vehicle gradually gets the control, 
+In the level 4 vehicle gets the complete control. To get a complete control, must ensure high performance, minimal consumption of power 
+and low thermal dissipation. And for this to implement we should have an architecture that matches the workload. This paper involves an 
+actively comparing computer architectures that will reduce the cost of autonomous driving that helps in affording the more population. 
+This paper compares Lidar-based and Vision based autonomous driving paradigm and also analyzed with different resources like CPU, GPU, 
+FPGA’s and DSP’s to find most suited resource for autonomous driving. While analyzing author developed an architecture that run tasks on 
+heterogeneous system on chip(SOC). An architecture is modular, secure, energy-efficient with high performance. Autonomous driving to 
+be successful should rely on mapping, localization, obstacle avoidance and sensor peripheral functions. Most of the autonomous driving 
+vehicle uses LIDAR based technique. The current technique has some challenges like more power consumption which is making unaffordable 
+to whole population so trying to find the system which consumes less power. So tried computing on ARM mobile SOC which is fully 
+heterogeneous resource which didn’t fit all the task in the system. Had to exclude object tracking, prediction, cross-road traffic 
+prediction. But autonomous driving system should be able to upload data sporadically. Computing-platform layer is a SOC architecture 
+which consists of I/O subsystem, CPU and shared memory. Using different computing resources helps in different ways like DSP preprocesses 
+the image to extract features, GPU performs object recognition and other deep learning tasks, multi-core CPU is planning for control. 
+This architecture has several key benefits like modular, secure and highly dynamic.
 
 URL: http://ieeexplore.ieee.org/document/7999133/
 
